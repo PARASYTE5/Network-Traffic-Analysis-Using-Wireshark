@@ -30,6 +30,7 @@ Through packet analysis, key networking concepts such as DNS resolution, TCP con
 - ICMP
 - HTTP/HTTPS
 - TLS
+- ARP
 
 ---
 
@@ -53,6 +54,11 @@ Through packet analysis, key networking concepts such as DNS resolution, TCP con
 
 ### 4. ICMP Analysis
 - Generated ICMP traffic using ping commands.
+- Examined Echo Requests and Echo Replies.
+- Studied how ICMP assists in network diagnostics.
+
+### 4. ARP Analysis
+- Generated ARP traffic in .
 - Examined Echo Requests and Echo Replies.
 - Studied how ICMP assists in network diagnostics.
 
@@ -87,13 +93,12 @@ Through packet analysis, key networking concepts such as DNS resolution, TCP con
 
 ## Conclusion
 
-This project provided hands-on experience in network packet analysis using Wireshark. By examining DNS, TCP, ICMP, and HTTPS traffic, a deeper understanding of network communication and protocol behavior was achieved. The project strengthened practical networking and cybersecurity skills while demonstrating the ability to analyze and document network activity effectively.
+This project provided hands-on experience in network packet analysis using Wireshark. By examining DNS, TCP, ARP ICMP, and HTTPS traffic, a deeper understanding of network communication and protocol behavior was achieved. The project strengthened practical networking and cybersecurity skills while demonstrating the ability to analyze and document network activity effectively.
 
 ---
 
 ## Future Improvements
 
-- Analyze ARP traffic and MAC address resolution.
 - Investigate TLS certificate exchanges.
 - Capture traffic from multiple devices.
 - Explore suspicious traffic detection techniques.
